@@ -18,7 +18,6 @@ def seleciona_playlist():
 
     return playlist_URI
 
-#track_uris = [x["track"]["uri"] for x in sp.playlist_tracks(playlist_URI)["items"]]
 
 def organiza_base_de_dados(playlist_URI):
     #array com as musicas em vetores
